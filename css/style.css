@@ -1,0 +1,153 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+font-size: 16px;
+background-color: #1119;
+font-weight: bold;
+
+    /**background: url(../img/Black\ and\ White\ Liquid\ Fluid\ Texture\ Shape\ Material\ Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;**/
+}
+
+/**Header**/
+
+.contenedor-header {
+    background-color: #111;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .contenedor-header {
+    display: flex;
+    flex-direction: row;    
+}
+}
+
+
+.titulo-header {
+    font-size: 5rem;
+    color: white;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.logo-header {
+    margin: 1rem 6rem 1rem 6rem;
+    border-radius: 100%;
+}
+
+/**Navegador**/
+
+.nav-bg {
+    background-color:white;
+}
+
+.nav-principal {
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    border: 5px ;
+    border-color: black;
+    margin-bottom: 2rem;
+}
+
+.nav-principal a {
+    
+    color: black;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 2rem 6rem;
+}
+
+.nav-principal a:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .nav-principal{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+/**Main**/
+
+.contenedor-main {
+    background-image: url(../img/descarga.jpeg);
+    background-size: contain;
+    width: 100%;
+    
+}
+
+@media (min-width: 768px) {
+    .contenedor-main {
+    max-width: 120rem;
+    margin: 0 auto;
+ }
+}
+
+.contenedor-pilchas {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+
+}
+
+
+
+@media (min-width: 768px) {
+    .contenedor-pilchas {
+    display: grid;
+    grid-template-columns: repeat(2);
+    margin: 2rem 2rem ;
+}
+}
+
+.container-ropa {
+
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    
+}
+
+.container-ropa a {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    
+}
+
+.img-ropa {
+    width: 60rem;
+    height: 60rem;
+}
+
+@media (min-width: 768px) {
+    
+}
+
+.texto-ropa{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/**Footer**/
